@@ -1,0 +1,12 @@
+label {
+    display: block;
+}
+
+#display-number{
+    font-size: 15rem;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" async defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <form id="input-form">
+        <p>Pick a number range to display</p>
+        <label for="start-number">Start
+            <input id="start-number" type="number" value="1">
+        </label>
+        <label for="end-number">End
+            <input id="end-number" type="number" value="5">
+        </label>
+        <label for="min-time">Min time
+            <input id="min-time" type="number" min="1" value="1">
+        </label>
+        <label for="max-time">Max time
+            <input id="max-time" type="number" value="10">
+        </label>
+        <button type="submit">Begin</button>
+    </form>
+    <div class="display-box hidden">
+        <h1 class="hidden display-header">Current Number</h1>
+        <p id="display-number"></p>
+        <button id="stop-button">Stop</button>
+    </div>
+</body>
+</html>
